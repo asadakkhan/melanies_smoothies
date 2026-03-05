@@ -2,7 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 # Write directly to the app
-st.title(f"Customize Smoothie Order Form")
+st.title(f"Customize Smoothie Order Forms")
 
 name_on_order = st.text_input("Name on the smoothie")
 st.write("The name on the smoothie is:", name_on_order)
